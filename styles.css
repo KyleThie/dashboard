@@ -33,27 +33,6 @@ img {
   grid-row-start: 2;
 }
 
-.projects {
-  border: 1px solid black;
-  /* grid-column-start: 2;
-  grid-column-end: 3; */
-}
-
-.sidebar {
-  border: 1px solid green;
-}
-
-.project1 {
-  border: 1px solid pink;
-}
-
-.project2 {
-  border: 1px solid pink;
-}
-.project3 {
-  border: 1px solid pink;
-}
-
 .search-container #search-field {
   position: relative;
   left: 5%;
@@ -104,4 +83,103 @@ img {
 
 .announcements-trending {
   grid-column-start: 3;
+  border: 2px solid red;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.announcement {
+  border: 3px solid green;
+  padding: 1em;
+}
+
+.sidebar ul li {
+  list-style: none;
+}
+
+nav {
+  background-color: lightblue;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+nav img {
+  width: 1.2em;
+  padding-right: 1em;
+}
+
+.home {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.messages {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.history {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tasks {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.communities {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.settings {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.support {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.privacy {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dashboard {
+  font-size: xx-large;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.project {
+  border: 1px solid black;
+  width: 40%;
+  margin: 8px;
+  text-align: center;
+  min-width: 40%;
+}
+
+.content {
+  margin-top: 8%;
+}
+
+.welcome-container p {
+  position: absolute;
+  margin: auto;
 }
